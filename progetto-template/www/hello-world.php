@@ -9,7 +9,7 @@
 <h1>
     <?php
 
-    echo "Hello " .$_GET['nome'] . "!";
+    echo "Hello " .$_GET['nome'] . "!";//
     ?>
 </h1>
 <p>Questo è il primo programma vero</p>
