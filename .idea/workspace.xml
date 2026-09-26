@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="metodo _GET x prendere nome e modificare da HELLO WORLD a HELLO [nome]">
+      <change beforePath="$PROJECT_DIR$/progetto-template/www/hello-world.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetto-template/www/public/hello-world.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MatteoPelizzari08&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MatteoPelizzari08/PROGETTI-QUINTA-INFORMATICA-2.git&quot;,
+    &quot;accountId&quot;: &quot;0fd3b569-39c6-4cbf-a96d-41897d0a1c45&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JfyUNa8hLkvcXcWxXYy5QTcJJ6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.hello-world.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/70606526/PhpstormProjects/PROGETTI-QUINTA-INFORMATICA-nuovo/primo-progetto",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo\primo-progetto" />
+      <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.10315.130" />
+        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.10315.130" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="" />
+      <created>1790066432769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790066432769</updated>
+      <workItem from="1790066436412" duration="2906000" />
+      <workItem from="1790069413533" duration="1254000" />
+      <workItem from="1790070724587" duration="85000" />
+      <workItem from="1790413409838" duration="233000" />
+      <workItem from="1790413745418" duration="1252000" />
+    </task>
+    <task id="LOCAL-00001" summary="scrittura codice iniziale in html">
+      <option name="closed" value="true" />
+      <created>1790067973455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790067973455</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cambiato da programma in corso a hello world">
+      <option name="closed" value="true" />
+      <created>1790068235170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790068235170</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modificato nome file da hello word a hello world">
+      <option name="closed" value="true" />
+      <created>1790068819147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790068819147</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aggiunta stringa helloworld">
+      <option name="closed" value="true" />
+      <created>1790068866498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790068866498</updated>
+    </task>
+    <task id="LOCAL-00005" summary="aggiunta stringa helloworld in h1 come se fosse un titolo">
+      <option name="closed" value="true" />
+      <created>1790069043445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790069043445</updated>
+    </task>
+    <task id="LOCAL-00006" summary="metodo _GET x prendere nome">
+      <option name="closed" value="true" />
+      <created>1790069839213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790069839214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="metodo _GET x prendere nome e modificare da HELLO WORLD a HELLO [nome]">
+      <option name="closed" value="true" />
+      <created>1790069906111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790069906111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="scrittura codice iniziale in html" />
+    <MESSAGE value="cambiato da programma in corso a hello world" />
+    <MESSAGE value="modificato nome file da hello word a hello world" />
+    <MESSAGE value="aggiunta stringa helloworld" />
+    <MESSAGE value="aggiunta stringa helloworld in h1 come se fosse un titolo" />
+    <MESSAGE value="metodo _GET x prendere nome" />
+    <MESSAGE value="metodo _GET x prendere nome e modificare da HELLO WORLD a HELLO [nome]" />
+    <MESSAGE value="esercizio per inrlfkgmfkls+" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio per inrlfkgmfkls+" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

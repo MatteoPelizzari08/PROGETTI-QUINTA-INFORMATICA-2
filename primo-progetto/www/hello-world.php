@@ -6,8 +6,13 @@
 
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Questo è il primo programma vero</p>
+<h1>
+    <?php
+
+    echo "Hello " .$_GET['nome'] . "!";
+    ?>
+</h1>
+<p>Questo è il primo programma vero</p>
 
 </body>
 </html>
