@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="esercizio per registrare eventi manuali in html">
+    <list default="true" id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="modifiche effettuate nel codice html">
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/tavola-pitagorica.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primo-progetto/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primo-progetto/www/public/hello-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/www/public/hello-world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetto-template/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/progetto-template/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="PHP File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,7 +75,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/70606526/PhpstormProjects/PROGETTI-QUINTA-INFORMATICA-nuovo/primo-progetto",
+    "last_opened_file_path": "C:/Users/70606526/PhpstormProjects/PROGETTI-QUINTA-INFORMATICA-nuovo/TAVOLA PERIODICA",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -77,8 +84,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo\TAVOLA PERIODICA" />
       <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo\primo-progetto" />
       <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo\primo-progetto\www\public" />
+      <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo\TAVOLA PITAGORICA\progetto-template\www\public" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -100,7 +112,8 @@
       <workItem from="1790069413533" duration="1254000" />
       <workItem from="1790070724587" duration="85000" />
       <workItem from="1790413409838" duration="233000" />
-      <workItem from="1790413745418" duration="1559000" />
+      <workItem from="1790413745418" duration="1784000" />
+      <workItem from="1790669405304" duration="4219000" />
     </task>
     <task id="LOCAL-00001" summary="scrittura codice iniziale in html">
       <option name="closed" value="true" />
@@ -166,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790415039007</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modifiche effettuate nel codice html">
+      <option name="closed" value="true" />
+      <created>1790415372884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790415372884</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +203,8 @@
     <MESSAGE value="metodo _GET x prendere nome e modificare da HELLO WORLD a HELLO [nome]" />
     <MESSAGE value="esercizio per inrlfkgmfkls+" />
     <MESSAGE value="esercizio per registrare eventi manuali in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio per registrare eventi manuali in html" />
+    <MESSAGE value="modifiche effettuate nel codice html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifiche effettuate nel codice html" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
