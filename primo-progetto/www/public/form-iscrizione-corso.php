@@ -33,7 +33,15 @@
         <option value = "altra lingua"> Altra Lingua</option>
         </select>
         
-
+       <label for="livello">Livello:</label>
+       <input type="radio" id="base" name="base" value="base">
+       <label for="base">Base</label><br>
+       <input type="radio" id="intermedio" name="intermedio" value="intermedio">
+       <label for="intermedio">Intermedio</label><br>
+       <input type="radio" id="avanzato" name="avanzato" value="avanzato">
+       <label for="avanzato">Avanzato</label><br>
+        
+        
     </form>';
 
 ?>
