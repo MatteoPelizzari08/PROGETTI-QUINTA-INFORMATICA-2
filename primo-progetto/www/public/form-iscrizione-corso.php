@@ -33,6 +33,8 @@
         <option value = "altra lingua"> Altra Lingua</option>
         </select>
         
+        <br>
+        
        <label for="livello">Livello:</label>
        <input type="radio" id="base" name="base" value="base">
        <label for="base">Base</label><br>
@@ -40,6 +42,8 @@
        <label for="intermedio">Intermedio</label><br>
        <input type="radio" id="avanzato" name="avanzato" value="avanzato">
        <label for="avanzato">Avanzato</label><br>
+       
+        <br>
         
        <label for="orario">Preferenze orario:</label>
        <br>
@@ -49,6 +53,13 @@
        <label for="pomeriggio">Pomeriggio</label><br>
        <input type="checkbox" id="avanzato" name="avanzato" value="avanzato">
        <label for="avanzato">Avanzato</label><br>
+       
+       <br>
+       <label for="altreRichieste">Altre richieste: </label>
+       <input type = "text" id="altreRichieste" name="altreRichieste">
+       
+       
+        
         
         
         
