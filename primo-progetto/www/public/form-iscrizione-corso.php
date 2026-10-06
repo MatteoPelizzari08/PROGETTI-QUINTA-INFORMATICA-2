@@ -41,6 +41,16 @@
        <input type="radio" id="avanzato" name="avanzato" value="avanzato">
        <label for="avanzato">Avanzato</label><br>
         
+       <label for="orario">Preferenze orario:</label>
+       <br>
+       <input type="checkbox" id="mattina" name="mattina" value="mattina">
+       <label for="mattina">Mattina</label><br>
+       <input type="checkbox" id="pomeriggio" name="pomeriggio" value="pomeriggio">
+       <label for="pomeriggio">Pomeriggio</label><br>
+       <input type="checkbox" id="avanzato" name="avanzato" value="avanzato">
+       <label for="avanzato">Avanzato</label><br>
+        
+        
         
     </form>';
 
