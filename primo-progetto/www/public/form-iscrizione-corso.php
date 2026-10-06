@@ -23,6 +23,16 @@
         <label for = "email"> Email: </label>
         <input type = "email" id = "email" name = "email"> <br>
 
+        <label for = "corsoLingua">Corso di lingua:</label>
+        <select id = "corsoLingua">Corso di lingua:
+        <option value = "inglese">Inglese</option>
+        <option value = "italiano">Italiano</option>
+        <option value = "spagnolo">Spagnolo</option>
+        <option value = "francese">Francese</option>
+        <option value = "tedesco">Tedesco</option>
+        <option value = "altra lingua"> Altra Lingua</option>
+        </select>
+        
 
     </form>';
 
