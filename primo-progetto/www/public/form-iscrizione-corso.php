@@ -57,13 +57,10 @@
        <br>
        <label for="altreRichieste">Altre richieste: </label>
        <input type = "text" id="altreRichieste" name="altreRichieste">
-       
-       
-        
-        
-        
-        
     </form>';
+
+    echo '<button type="reset">Reset</button>';
+    echo '<button type="button">Invia Iscrizione</button>'
 
 ?>
 </main>
