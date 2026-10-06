@@ -60,7 +60,8 @@
     </form>';
 
     echo '<button type="reset">Reset</button>';
-    echo '<button type="button">Invia Iscrizione</button>'
+    echo '<button type="button">Invia Iscrizione</button>';
+
 
 ?>
 </main>
