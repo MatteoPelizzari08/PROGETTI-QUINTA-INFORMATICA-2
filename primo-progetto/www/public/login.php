@@ -9,19 +9,21 @@
 
 </head>
 <body>
-<main>
     <h1>ACCESSO A AREA RISERVATA</h1>
+<main>
 
-    <form action= "<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-        <label for = "username"> Username: </label>
+
+<?php
+    echo '<form action= "controllo.php" method="post">';
+        echo '<label for = "username"> Username: </label> 
         <input type = "text" id = "username" name = "username"> <br>
 
         <label for = "password"> Password: </label>
         <input type = "password" id = "password" name = "password"> <br>
 
-        <button type="button">Invia Iscrizione</button>
-
-</main>
-
+        <button type="submit">Invia Iscrizione</button> ';
+        echo '</form>'
+?>
+    </main>
 </body>
 </html>
