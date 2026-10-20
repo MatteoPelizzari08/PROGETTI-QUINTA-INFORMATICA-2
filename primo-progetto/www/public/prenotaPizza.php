@@ -38,6 +38,13 @@
        <label for="ricotta">ricotta</label><br>
        <input type="checkbox" id="salsiccia" name="salsiccia" value="salsiccia">
        <label for="salsiccia">salsiccia</label><br>
+
+
+<label for="impasto"> seleziona tipo di impasto:</label><br>
+       <input type="radio" id="normale" name="normale" value="normale">
+       <label for="normale">normale</label><br>
+       <input type="radio" id="glutine" name="glutine" value="glutine">
+       <label for="glutine">senza glutine</label><br>
  
 </form>';
 
