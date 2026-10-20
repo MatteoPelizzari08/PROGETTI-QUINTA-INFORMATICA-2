@@ -11,9 +11,9 @@
 <body>
 <h1>PRENOTAZIONE SU MYPIZZA</h1>
 <main>
-<?php
-    echo '<form action= "prenotaPizza.php" method="post">
-        
+
+    <form action= "prenotaPizza.php" method="post">
+
         <label for = "sistemazione"> Tipo di sistemazione</label>
         <select id = "sistemazione">Scegli la tua sistemazione:
                 <option value = "coperto">Al coperto</option>
@@ -21,14 +21,14 @@
                 </select>
 
         <label for = "scegliPizza"> Tipi di pizza:</label>
-                    <select id = "scegliPizza">Scegli la tua pizza preferita:
-                            <option value = "capricciosa">Capricciosa</option>
-                            <option value = "margherita">Margherita</option>
-                            <option value = "marinara">Marinara</option>
-                            <option value = "4stagioni">4 stagioni</option>
-                            <option value = "boscaiola">Boscaiola</option>
-                            <option value = "valsabbina"> Valsabbina</option>
-                            </select>
+        <select id = "scegliPizza">Scegli la tua pizza preferita:
+                <option value = "capricciosa">Capricciosa</option>
+                <option value = "margherita">Margherita</option>
+                <option value = "marinara">Marinara</option>
+                <option value = "4stagioni">4 stagioni</option>
+                <option value = "boscaiola">Boscaiola</option>
+                <option value = "valsabbina"> Valsabbina</option>
+                </select>
 
 
 <label for="aggiunte"> seleziona le eventuali aggiunte:</label>
@@ -45,11 +45,22 @@
        <label for="normale">normale</label><br>
        <input type="radio" id="glutine" name="glutine" value="glutine">
        <label for="glutine">senza glutine</label><br>
- 
-</form>';
 
+   <button type="button" name = "ordina">ordina</button>
+    </form>
 
+<?php
+$sistemazione = $_POST['sistemazione'];
+$pizza = $_POST['scegliPizza'];
+$aggiunte = $_POST['aggiunte'];
+$impasto = $_POST['impasto'];
+
+if($_POST['ordina']){
+echo 'la pizza ' . $pizza . ' con impasto ' . $impasto . ' e aggiunte di '.  $aggiunte . ' è stata correttamente prenotata con sistemazione '. $sistemazione;
+
+}
 ?>
+
 </main>
 </body>
 </html>
