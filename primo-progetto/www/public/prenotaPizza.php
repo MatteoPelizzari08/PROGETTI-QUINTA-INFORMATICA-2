@@ -20,7 +20,7 @@
         </select>
 
         <label for="scegliPizza">Tipi di pizza:</label>
-        <select id="scegliPizza" name="scegliPizza">
+        <select id="scegliPizza" na0me="scegliPizza">
             <option value="capricciosa">Capricciosa</option>
             <option value="margherita">Margherita</option>
             <option value="marinara">Marinara</option>
