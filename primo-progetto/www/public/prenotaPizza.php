@@ -5,59 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
-    <title>PRENOTAZIONE PIZZA</title>
+    <title>Prenotazione Pizza</title>
 </head>
 <body>
-<h1>PRENOTAZIONE SU MYPIZZA</h1>
 <main>
+    <h1>Prenotazione MyPizza</h1>
 
     <form action="prenotaPizza.php" method="post">
 
         <label for="sistemazione">Tipo di sistemazione</label>
         <select id="sistemazione" name="sistemazione">
-            <option value="coperto">Al coperto</option>
-            <option value="aperto">All'aperto</option>
+            <option value="al coperto">Al coperto</option>
+            <option value="all'aperto">All'aperto</option>
         </select>
 
-        <label for="scegliPizza">Tipi di pizza:</label>
+        <label for="scegliPizza">Tipo di pizza</label>
         <select id="scegliPizza" name="scegliPizza">
-            <option value="capricciosa">Capricciosa</option>
-            <option value="margherita">Margherita</option>
-            <option value="marinara">Marinara</option>
-            <option value="4stagioni">4 stagioni</option>
-            <option value="boscaiola">Boscaiola</option>
-            <option value="valsabbina">Valsabbina</option>
+            <option value="Capricciosa">Capricciosa</option>
+            <option value="Margherita">Margherita</option>
+            <option value="Marinara">Marinara</option>
+            <option value="4 Stagioni">4 stagioni</option>
+            <option value="Boscaiola">Boscaiola</option>
+            <option value="Valsabbina">Valsabbina</option>
         </select>
 
-        <label>Seleziona le eventuali aggiunte:</label>
+            <label for="aggiunte[]">Eventuali aggiunte:</label>
+            <input type="checkbox" name="aggiunte[]" value="prosciutto"> Prosciutto<br>
+            <input type="checkbox" name="aggiunte[]" value="ricotta"> Ricotta<br>
+            <input type="checkbox" name="aggiunte[]" value="salsiccia"> Salsiccia<br>
 
-        <label for="prosciutto">prosciutto</label><br>
-        <input type="checkbox" id="prosciutto" name="aggiunte[]" value="prosciutto">
+            <label for="impasto">Impasto:</label><br>
+            <label><input type="radio" name="impasto" value="normale" checked> Normale</label><br>
+            <label><input type="radio" name="impasto" value="senza glutine"> Senza glutine</label><br>
 
-        <label for="ricotta">ricotta</label><br>
-        <input type="checkbox" id="ricotta" name="aggiunte[]" value="ricotta">
-
-        <label for="salsiccia">salsiccia</label><br>
-        <input type="checkbox" id="salsiccia" name="aggiunte[]" value="salsiccia">
-
-        <label>Seleziona tipo di impasto:</label><br>
-        <label for="normale">normale</label><br>
-        <input type="radio" id="normale" name="impasto" value="normale" checked>
-        <label for="glutine">senza glutine</label><br>
-        <input type="radio" id="glutine" name="impasto" value="senza glutine">
-        <button type="submit" name="ordina" value="1">Ordina</button>
+        <button type="submit" name="ordina">Ordina</button>
     </form>
 
     <?php
     if (isset($_POST['ordina'])) {
-        $sistemazione = $_POST['sistemazione'] ?? '';
-        $pizza = $_POST['scegliPizza'] ?? '';
-        $impasto = $_POST['impasto'] ?? '';
+        if (isset($_POST['sistemazione'])) {
+            $sistemazione = $_POST['sistemazione'];
+        } else {
+            $sistemazione = '';
+        }
 
-        $aggiunteArray = $_POST['aggiunte'] ?? [];
-        $aggiunte = count($aggiunteArray) > 0 ? implode(', ', $aggiunteArray) : 'nessuna';
+        if (isset($_POST['scegliPizza'])) {
+            $pizza = $_POST['scegliPizza'];
+        } else {
+            $pizza = '';
+        }
 
-        echo '<p>La pizza ' . $pizza . ' con impasto ' . $impasto . ' e aggiunte di: ' . $aggiunte . ' è stata correttamente prenotata con sistemazione ' .$sistemazione . '.</p>';
+        if (isset($_POST['impasto'])) {
+            $impasto = $_POST['impasto'];
+        } else {
+            $impasto = '';
+        }
+
+        if (isset($_POST['aggiunte'])) {
+            $aggiunte = "";
+            foreach ($_POST['aggiunte'] as $item) {
+                $aggiunte = $aggiunte . $item . ", ";
+            }
+        } else {
+            $aggiunte = 'nessuna';
+        }
+
+        echo "<p>La pizza $pizza con impasto $impasto e aggiunte di: $aggiunte è stata correttamente prenotata con sistemazione $sistemazione.</p>";
     }
     ?>
 
