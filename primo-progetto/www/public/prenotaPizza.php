@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
         </select>
 
         <label for="scegliPizza">Tipi di pizza:</label>
-        <select id="scegliPizza" na0me="scegliPizza">
+        <select id="scegliPizza" name="scegliPizza">
             <option value="capricciosa">Capricciosa</option>
             <option value="margherita">Margherita</option>
             <option value="marinara">Marinara</option>
@@ -30,19 +30,21 @@
         </select>
 
         <label>Seleziona le eventuali aggiunte:</label>
-        <input type="checkbox" id="prosciutto" name="aggiunte[]" value="prosciutto">
+
         <label for="prosciutto">prosciutto</label><br>
-        <input type="checkbox" id="ricotta" name="aggiunte[]" value="ricotta">
+        <input type="checkbox" id="prosciutto" name="aggiunte[]" value="prosciutto">
+
         <label for="ricotta">ricotta</label><br>
-        <input type="checkbox" id="salsiccia" name="aggiunte[]" value="salsiccia">
+        <input type="checkbox" id="ricotta" name="aggiunte[]" value="ricotta">
+
         <label for="salsiccia">salsiccia</label><br>
+        <input type="checkbox" id="salsiccia" name="aggiunte[]" value="salsiccia">
 
         <label>Seleziona tipo di impasto:</label><br>
-        <input type="radio" id="normale" name="impasto" value="normale" checked>
         <label for="normale">normale</label><br>
-        <input type="radio" id="glutine" name="impasto" value="senza glutine">
+        <input type="radio" id="normale" name="impasto" value="normale" checked>
         <label for="glutine">senza glutine</label><br>
-
+        <input type="radio" id="glutine" name="impasto" value="senza glutine">
         <button type="submit" name="ordina" value="1">Ordina</button>
     </form>
 
