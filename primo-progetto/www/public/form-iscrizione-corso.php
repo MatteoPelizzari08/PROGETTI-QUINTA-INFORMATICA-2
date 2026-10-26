@@ -9,58 +9,65 @@
 
 </head>
 <body>
-<main>
-    <?php
-    echo '<h1>RICHIESTA CORSI DI LINGUA</h1>';
+<h1>RICHIESTA CORSI DI LINGUA</h1>
 
-    echo '<form>
-        <label for = "nome"> Nome: </label>
-        <input type = "text" id = "nome" name = "nome"> <br>
+<form action = "form-iscrizione-corso.php" method = "post">
+    <label for = "nome"> Nome: </label>
+    <input type = "text" id = "nome" name = "nome"> <br>
 
-        <label for = "cognome"> Cognome: </label>
-        <input type = "text" id = "cognome" name = "cognome"> <br>
+    <label for = "cognome"> Cognome: </label>
+    <input type = "text" id = "cognome" name = "cognome"> <br>
 
-        <label for = "email"> Email: </label>
-        <input type = "email" id = "email" name = "email"> <br>
+    <label for = "email"> Email: </label>
+    <input type = "email" id = "email" name = "email"> <br>
 
-        <label for = "corsoLingua">Corso di lingua:</label>
-        <select id = "corsoLingua">Corso di lingua:
+    <label for = "corsoLingua">Corso di lingua:</label>
+    <select id = "corsoLingua">Corso di lingua:
         <option value = "inglese">Inglese</option>
         <option value = "italiano">Italiano</option>
         <option value = "spagnolo">Spagnolo</option>
         <option value = "francese">Francese</option>
         <option value = "tedesco">Tedesco</option>
         <option value = "altra lingua"> Altra Lingua</option>
-        </select>
-        
-        <br>
-        
-       <label for="livello">Livello:</label>
-       <input type="radio" id="base" name="base" value="base">
-       <label for="base">Base</label><br>
-       <input type="radio" id="intermedio" name="intermedio" value="intermedio">
-       <label for="intermedio">Intermedio</label><br>
-       <input type="radio" id="avanzato" name="avanzato" value="avanzato">
-       <label for="avanzato">Avanzato</label><br>
-       
-        <br>
-        
-       <label for="orario">Preferenze orario:</label>
-       <br>
-       <input type="checkbox" id="mattina" name="mattina" value="mattina">
-       <label for="mattina">Mattina</label><br>
-       <input type="checkbox" id="pomeriggio" name="pomeriggio" value="pomeriggio">
-       <label for="pomeriggio">Pomeriggio</label><br>
-       <input type="checkbox" id="avanzato" name="avanzato" value="avanzato">
-       <label for="avanzato">Avanzato</label><br>
-       
-       <br>
-       <label for="altreRichieste">Altre richieste: </label>
-       <input type = "text" id="altreRichieste" name="altreRichieste">
-    </form>';
+    </select>
 
-    echo '<button type="reset">Reset</button>';
-    echo '<button type="button">Invia Iscrizione</button>';
+    <br>
+
+    <label for="livello">Livello:</label>
+    <input type="radio" id="base" name="base" value="base">
+    <label for="base">Base</label><br>
+    <input type="radio" id="intermedio" name="intermedio" value="intermedio">
+    <label for="intermedio">Intermedio</label><br>
+    <input type="radio" id="avanzato" name="avanzato" value="avanzato">
+    <label for="avanzato">Avanzato</label><br>
+
+    <br>
+
+    <label for="orario">Preferenze orario:</label>
+    <br>
+    <input type="checkbox" id="mattina" name="mattina" value="mattina">
+    <label for="mattina">Mattina</label><br>
+    <input type="checkbox" id="pomeriggio" name="pomeriggio" value="pomeriggio">
+    <label for="pomeriggio">Pomeriggio</label><br>
+    <input type="checkbox" id="avanzato" name="avanzato" value="avanzato">
+    <label for="avanzato">Avanzato</label><br>
+
+    <br>
+    <label for="altreRichieste">Altre richieste: </label>
+    <input type = "text" id="altreRichieste" name="altreRichieste">
+
+    <button type="reset">Reset</button>
+    <button type="button">Invia Iscrizione</button>
+</form>
+</body>
+<main>
+    <?php
+    echo '';
+
+    echo '';
+
+    echo '';
+    echo '';
 
 
 ?>
